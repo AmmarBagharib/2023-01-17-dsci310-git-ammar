@@ -13,6 +13,8 @@ Intro Git Demo
 
 - `git add -f <FILE>`: force add a file, even if it is within a directory that you've specified in your .gitignore file
 
+- `git log --oneline --graph --all`: shows all our history
+
 ## Branches
 - `git branch`: creates a git branch named <branch> wherever you are (`HEAD`)
 - `git switch <branch name>`: switch to that branch
@@ -20,3 +22,9 @@ Intro Git Demo
 - `git switch -c <branch name>`: create and switch to that branch
     - `git checkout -b <branch name>`: old method of creating and switching to branch
 
+
+
+### Cleanup Process
+1. delete branch PR in github
+2. `git fetch --prune`: update references to deleted branch on the remote
+3. `git branch -d <branch name>`: delete local branch <branch name>
