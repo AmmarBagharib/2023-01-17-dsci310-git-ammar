@@ -11,6 +11,4 @@ Intro Git Demo
 - `git pull <where> <what>`: take remote commits on `<what>` and pull from `<where>`
     - e.g., `git pull origin main`
 
-merge conflict test 1 from local
-    
-merge conflict test 1
+- `git add -f <FILE>`: force add a file, even if it is within a directory that you've specified in your .gitignore file
