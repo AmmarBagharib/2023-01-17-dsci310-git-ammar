@@ -12,3 +12,8 @@ Intro Git Demo
     - e.g., `git pull origin main`
 
 - `git add -f <FILE>`: force add a file, even if it is within a directory that you've specified in your .gitignore file
+
+## branches
+- `git branch`: creates a git branch named <branch> wherever you are (`HEAD`)
+- `git switch <branch name>`: switch to that branch
+    - `git checkout <branch name>`: old method of switching to branch
