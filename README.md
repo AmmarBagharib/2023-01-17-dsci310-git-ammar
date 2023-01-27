@@ -12,3 +12,5 @@ Intro Git Demo
     - e.g., `git pull origin main`
 
 merge conflict test 1 from local
+    
+merge conflict test 1
